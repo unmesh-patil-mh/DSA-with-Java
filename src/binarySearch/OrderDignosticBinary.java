@@ -1,7 +1,7 @@
 package binarySearch;
 
 public class OrderDignosticBinary {
-	static int OrderDignosticBinary(int[] arr , int target) {
+	static int OrderDignostic(int[] arr , int target) {
 		
 		int start = 0;
 		
@@ -46,9 +46,9 @@ public class OrderDignosticBinary {
 		
 		int[] arr1 = {0,2,4,6,8,10,12,14,16,18,20,22,24};
 		
-		int result1 = OrderDignosticBinary(arr, target);
+		int result1 = OrderDignostic(arr, target);
 		
-		int result2 = OrderDignosticBinary(arr1, target);
+		int result2 = OrderDignostic(arr1, target);
 		
 		System.out.println("Acending Order Index is: " + result2);
 		
